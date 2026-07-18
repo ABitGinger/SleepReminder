@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "SDd0vjvjfjr3Tv1BtyyNWdpZBE8hYOa73f5dyPwHxL5F6L1gC1FlJoVgQaObOcrplDogrbOGOBexDv2BOK0TOw==",
+  "success": true,
+  "projectFilePath": "K:\\做点东西\\1011\\SleepReminder\\SleepReminder.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\31386\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\31386\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
+    "C:\\Users\\31386\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
+    "C:\\Users\\31386\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.36\\microsoft.netcore.app.runtime.win-x64.6.0.36.nupkg.sha512",
+    "C:\\Users\\31386\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.36\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.36.nupkg.sha512",
+    "C:\\Users\\31386\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.36\\microsoft.aspnetcore.app.runtime.win-x64.6.0.36.nupkg.sha512"
+  ],
+  "logs": []
+}
