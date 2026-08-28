@@ -1,0 +1,2 @@
+D:\Repositories\1011\SleepReminder\publish\SleepReminder.pdb
+D:\Repositories\1011\SleepReminder\publish\SleepReminder.exe

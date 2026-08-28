@@ -27,7 +27,7 @@ public class MainApplication : ApplicationContext
         Fullscreen
     }
 
-    public MainApplication()
+    public MainApplication(bool firstRun = false)
     {
         _log.Info("应用程序启动");
         _settingsManager = new SettingsManager(_log);
@@ -47,6 +47,20 @@ public class MainApplication : ApplicationContext
         _log.Info("系统托盘图标已初始化");
 
         CheckSchedule();
+
+        if (firstRun)
+        {
+            _log.Info("首次运行，自动弹出设置窗口");
+            System.Windows.Forms.Timer? delayTimer = null;
+            delayTimer = new System.Windows.Forms.Timer { Interval = 500 };
+            delayTimer.Tick += (_, _) =>
+            {
+                delayTimer?.Stop();
+                delayTimer?.Dispose();
+                ShowSettings();
+            };
+            delayTimer.Start();
+        }
     }
 
     private void BuildTrayMenu()
